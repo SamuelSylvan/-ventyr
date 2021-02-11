@@ -8,6 +8,7 @@ with open("äventyr.test.txt") as file:
       äventyr [rad] = information 
 
 print ("Nu börjar " + äventyr[0] +". Håll i hatten." )
+input()
 text = "hej"
 position = 1
 Slut = False
@@ -20,8 +21,11 @@ while not Slut:
   if text [0] == "H":
     print (text[1])
     position = int (text [2])
+    input()
   if text [0] == "V":
     print (text[1])
+    val = int (input())
+    position =  int (text [val + 1])
 
    
 
@@ -44,4 +48,3 @@ while not Slut:
 #     print (line[1])
 
 
-# '
