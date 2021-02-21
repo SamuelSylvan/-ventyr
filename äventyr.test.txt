@@ -1,6 +1,7 @@
 0:SKOGS-ÄVENTYRET
 1:V;Du ska går på en skogspromenad. Vilken väg tar du? 1-Vanliga stigen, 2-Går fritt i skogen;2;3
 2:V;Det börjar bli mörkt, Vad gör du? 1-Går hem, 2-Fortsätter gå stigen;4;5
-3:S;Du trillar ner i en grop och bryter benet. SLUT
+3:T;2;Du kommer fran till en bäck som du måste hoppa över. Slumpen avgör. 1-Ramla i. 2-klarar det.;6;4
 4:S;Hemma får du nybakta bullar och mjölk. DU HAR KLARAT DET!
 5:H;Du ser inte vart du går.;3
+6:S;Du ramlar i och blir iskall.SLUT

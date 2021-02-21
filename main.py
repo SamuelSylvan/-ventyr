@@ -1,3 +1,6 @@
+import time
+import os
+import random
 äventyr = {}
 with open("äventyr.test.txt") as file:
     for line in file: 
@@ -6,10 +9,10 @@ with open("äventyr.test.txt") as file:
       rad = int(s[0]) 
       information = s [1]
       äventyr [rad] = information 
-
 print ("Nu börjar " + äventyr[0] +". Håll i hatten." )
 input()
-text = "hej"
+os.system("clear")
+time.sleep(0.25) 
 position = 1
 Slut = False
 while not Slut:
@@ -19,32 +22,31 @@ while not Slut:
     print (text[1])
     Slut = True
   if text [0] == "H":
+    print()
     print (text[1])
     position = int (text [2])
     input()
+    os.system("clear")
+    time.sleep(0.25) 
   if text [0] == "V":
+    print()
     print (text[1])
     val = int (input())
-    position =  int (text [val + 1])
-
-   
-
-# 'information = information.split(";")
-  # if information [0] == "S":
-  #   print (information[1])
-  #   Slut = True
-  # if line [0] == "H":
-  #   print (line[1])
-
-# for y in äventyr:
-#   line = line.split (";")
-#   if line [0] == "S":
-#     print (line[1])
-#     break
-
-# for x in äventyr:
-#   line = line.split (";")
-#   if line [0] == "H":
-#     print (line[1])
-
-
+    os.system("clear")
+    time.sleep(0.25) 
+    position =  int (text [val + 1]) 
+  if text [0] == "T":
+    print()
+    antal = int(text [1])
+    nummer = 1
+    print (text[2])
+    input()
+    for i in range (antal*5):
+      print (nummer,end="\r", flush = True)
+      time.sleep(0.25) 
+      nummer = nummer + 1 
+      if nummer > antal:
+        nummer = 1
+    rand = (random.randint(1, antal))
+    print(rand)
+    position =  int (text[rand+2])
