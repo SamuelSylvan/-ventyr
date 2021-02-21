@@ -31,15 +31,24 @@ while not Slut:
   if text [0] == "V":
     print()
     print (text[1])
-    val = int (input())
-    os.system("clear")
-    time.sleep(0.25)
-    antal_val = len(text)-2
-    if val > antal_val:
+    val = input()
+    test = val.isdigit() 
+    if test == False:
+      os.system ("clear")
       print ("Ogiltligt val")
       input()
-      os.system ("clear")
-    else: position =  int (text [val + 1]) 
+      os.system ("clear") 
+      time.sleep
+    else:
+      val = int (val)
+      os.system("clear")
+      time.sleep(0.25)
+      antal_val = len(text)-2
+      if val > antal_val:
+        print ("Ogiltligt val")
+        input()
+        os.system ("clear")
+      else: position =  int (text [val + 1]) 
   if text [0] == "T":
     print()
     antal = int(text [1])
