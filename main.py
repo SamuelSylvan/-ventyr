@@ -33,8 +33,13 @@ while not Slut:
     print (text[1])
     val = int (input())
     os.system("clear")
-    time.sleep(0.25) 
-    position =  int (text [val + 1]) 
+    time.sleep(0.25)
+    antal_val = len(text)-2
+    if val > antal_val:
+      print ("Ogiltligt val")
+      input()
+      os.system ("clear")
+    else: position =  int (text [val + 1]) 
   if text [0] == "T":
     print()
     antal = int(text [1])
