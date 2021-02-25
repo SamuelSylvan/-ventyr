@@ -2,16 +2,14 @@ import time
 import os
 import random
 äventyr = {}
-
-
 äventyr_testloop = False
-
 file = ""
 äventyret=""
 while äventyr_testloop == False:
   print ("Vilket äventyr vill du spela?")
   print ("1. Skogsäventyret")
   print ("2. skriskoäventyret")
+  print ("3. Herrgårdsäventyret")
   äventyret = input()
   os.system ("clear") 
   time.sleep(0.25)
@@ -24,7 +22,7 @@ while äventyr_testloop == False:
     time.sleep(0.25)
   else: 
     äventyret = int (äventyret)
-    if äventyret >  2:
+    if äventyret >  3:
       print ("Ogiltligt val")
       input()
       os.system ("clear")
@@ -32,10 +30,8 @@ while äventyr_testloop == False:
     else: 
       äventyr_testloop = True
 
-
-
-
-
+if äventyret == 3:
+  file = "herrgårdsäventyret.txt"      
 if äventyret == 1:
   file = "testäventyret.txt"
 if äventyret == 2:
