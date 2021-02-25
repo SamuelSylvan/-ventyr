@@ -4,4 +4,4 @@
 3:T;2;Du kommer fran till en bäck som du måste hoppa över. Slumpen avgör. 1-Ramla i. 2-klarar det.;6;4
 4:S;Hemma får du nybakta bullar och mjölk. DU HAR KLARAT DET!
 5:H;Du ser inte vart du går.;3
-6:S;Du ramlar i och blir iskall.SLUT
+6:S;Du ramlar i och blir iskall. SLUT

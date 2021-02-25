@@ -1,0 +1,47 @@
+0:SKRIDSKO-ÄVENTYRET
+1:V;Den här fredagen är ni lediga. Du och din kompis ska åka långfärdsskridsko på Mälaren. Ni har packat matsäck och ett vattentätt ombyte i era ryggsäckar. Ni står på stranden vid en basplats. Har ni isdubbar, räddningslina och ispik med er? 1-Ja, 2-Nej;2;4
+2:H;Bra! Då är ni redo för detta äventyr. Ni kliver ut på isen och tar på skridskona.;3 
+3:V;Ni står på isen utanför badplatsen. Vart åker ni? 1-Följer stranden 2-Tar site mot en ö långt från land;5;15
+4:S;Aj då! Då utan isdubbar, räddningslina och ispik blir det ingen tur på isen. Snopna åker ni hem. SLUT
+5:V;Längs standen är det ganska skravlig is med ett jobbigt snötäcke på. Det är tungt att åka, mer som att gå på skidskor än att glida fram. Vad gär ni? 1-Tar en paus 2-Åker tillbaka 3-Kämpar på;6;7;8
+6:S;Ni börjar frysa. Det här var inte kul. Ni åker tillbaka. SLUT
+7:H;Ni kämpar er tillbaka till badplatsen.;3
+8:V;Efter en kilometer kommer ni fram till ett utlopp. En bäck mynnar ut i sjön. Bäcken är islagd så det verkar lugnt att fortsätta förbi utloppet. Vad gör ni? 1-Kollar isen med piken för säkerhets skull. 2-Fortsätter åka;9;10
+9:V;Ni stöter till med piken i isen, den går igenom på första stöten. Bäst att välja en säkrare väg förbi utloppet. Ni åker i en båge utåt sjön och passerar utloppet på säker is. Vad gör ni nu? 1-Fortsätter längs stranden 2-Vänder ut mot ön;13;15
+10:T;6;Isen knakar!! En spricka bildas under era skridskor. Ni ser ett kråkfotsliknande mönster under skenan... Isen håller på att brista. Slumpen får avgöra (1,2)-Isen brister (3,4,5,6)-Isen håller;11;11;12;12;12;12
+11:S;KNAK, PLASK!!! Ni faller båda igenom isen samtidigt. Ingen kan dra upp den andra med sin räddlingslina. Ni skulle ha hållit ett bättre säkerhetsavstånd. Efter att köldchocken lagt sig tar ni er upp på isen med hjälp av isdubbarna. Ingen av er är sugna på att åka mer skridsko idag. Ni tar på er extrakläderna och lunkar tillbaka på land. SLUT
+12:H;KNAK, KNAK... De där var nära ögat. Isen höll och ni kom förbi utloppet till säker is.;13
+13:V;Ni fortsätter en bit längs stranden. Ni kommer till en klippa där vattnet har skapat häftiga isformationer, ni stannar och fotograferar dom. Vad gör ni sen 1-Fortsätter längs klippan 2-Vänder ut mot ön och finisen där;14;15
+14:S;Ni beundrar klippan och naturens iskonstverk. Du glömmer aldeles bort att kontrollera isen ibland, så du fastnar med skridskon i en spricka och faller. Aj, aj, det gör ont i ditt knä. Ni vänder hemåt i långsam takt. Inget roligt slut på den här dagen. SLUT
+15:V;Tjohoo!!! Vilken fin is det är här ute på sjön. Med vinden i ryggen svishar ni ut mot ön. Ni kommer till en råk, ni får bromsa in för att inte plurra. Råken är ca 40 cm bred. Vad gör ni? 1-Försöker ta er över råken här 2-följer råken för att hitta ett bättre ställe att passera;16;20
+16:H;Du är först att ta dig över. Det gick bra!;17
+17:T;6;Nu är det din kompis tur att ta sig över. Kompisen tar stöd med ispikarna och tar ett stort kliv äver vaken. Slumpen avgör vad som händer nu... (1,2)-Det går bra (3,4,5,6)-Iskanten brister;22;22;18;18;18;18
+18:H;Precis när din kompis tar klivet så brister råken och hen trillar i. Du tar snabbt fram din räddlingslina och kastar den till kompisen som snammt kommer upp på isen igen.;19
+19:H;Det blir ett snabbt och kallt klädombyte på isen för din kompis. Sen bestämmer ni er för att snabbt ta er över till ön och fika där.;20
+20:V;Ni kommer fram till ett ställe där råken smalnar av och det är lättare att passera. Ni strå trygga på andra sidan råken. Vad gör ni nu? 1-Fortsätter mot ön 2-Vilar en stund.;22;21
+21:H;Ni puster ut, dricker lite vatten och äter litr russin. Någonting rör sig länge bort på isen, en räv springer förbi. "Räven raskar över isen" skojar ni. Sen fortsätter ni mot ön;22
+22:V;Ni skrinnar vidare mot ön. Det går fort i medvinden, ni är starx framme. Var gör ni? 1-Går upp på ön för att fika 2-Tar ett varv runt ön;26;23
+23:V;På andra sidan ön sitter några andra skridskoåkare och fikar. Vag gör ni? 1-Ropar hej och åker vidare runt ön 2-Stannar och pratar;24;25
+24:H;De vinkar glatt tillbaka. Ni rundar ön besämmer er sedan för att det är dags för fika.;26
+25:V;Ni hejar och pratar med dem. De berättar för er att det brukar passera ett fraktfartyg mellan ön och land varje fredag eftermiddag. Det fraktar flis till värmevärket. "Om vi inte ska hamna på fel sida om rännan så måste vi nog åka tillbaka nu." säger de och skrattar. Vad gör ni 1-Följer med de andra skridskoåkarna tillbaka 2-Stannar och fikar på ön, det borde ni hinna;27;26
+26:V;Ni kliver iland och hittar lä bakom en stor sten. Nu ska det bli gott med fika. Var har ni med er i termosen? 1-Nyponsoppa 2-Varm choklad 3-Blåbärssoppa;28;29;30
+27:H;Ni tar en snabb fika på stående fot medan de andra skridskoåkarna packar sina ryggsäckar.;45
+28:H;Mums, den goda doften av nyponsoppa når era näsor. Ni fyller kåsorna med biskvier och soppa och mumsar i er.;31
+29:H;"Go å glad, varm choklad" skrattar ni.;31
+30:T;6;Du tar en stor klunk av blåbärssoppan. Det ryker om koppen. Hur varm är den egentligen? Slumpen avgör (1,2,3)-Jättevarm (4,5,6)-Lagom varm;32;32;32;33;33;33
+31:H;Ni ärer er mätta. Plötsligt ser ni ett skort fraktfartyg passera mellan ön och land. Precis där ni förut åkte skridskor. Ni har ingen möjlighet att återvända innan fartyget har brutit upp en ränna i isen.;34
+32:S;AJ! Så varm, du bränner dig i gommen. Inte så kul. Efter att ni fikat klart får du åka tillbaka till badplatsen med värkande mun. Inte den bästa avslutningen på en annas härlig skridskodag. SLUT
+33:H;Den goda blåbärssmaken rinner ner genom matstupen.;31
+34:V;Ni packar era ryggsäckan. Men vad ska ni göra nu? 1-Åka fram till rännan och se om det går att ta sig över. 2-Åka till hamnen dit fartyget är på väg.;35;36
+35:V;Ni skrinnar fram till rännan där fartyget har passerat. Den är ca 20 meter bred. Stora isflak ligger och guppar i vattnet. "Kanske går det att hoppa på flaken över till andra sidan" säger din kompis. "Tveksamt" svara du. Vad gör ni? 1-Hoppar på flaken 2-Åker tillbaka till ön;39;37
+36:H;Ni tittar på kartan. Det är flera mil till hamnen dir fartyget är på väg.;37
+37:H;Ni inser att i är fast på isen. Ni måste ringa på hjälp. Ni åker tillbaka till ön och ringer 112.;38
+38:S;Räddningstjänsten kommer och hämtar er med svävare. Ett snopet slut på skridskoturen. SLUT
+39:T;6;Ni hoppar över, ett flak i taget. I början går det bra. När ni är mitt rännan kommer ni till ett flak som är på vag att brytas sönder. Slumpen avgör hur det går... (1,2,3)-Flaket brister (4,5,6)-Flaket håller;40;40;40;41;41;41
+40:H;Ni hamnar båda i det iskalla vattnet. Ni lyckas simma över till kanten på andra sidan. Ryggsäcken fungerar som flythjälp. Nu måste ni tar er upp med hjälp av isdubbarna.;42
+41:H;Yes, flaket håller och ni lyckas att ta er över till andra sidan. Ni åker så snabbt ni kan tillbaka till badplatsen;50
+42:V;Huttrande byter ni om till era extrakläder. Sen åker ni tillbaka mot badstranden. Det är jobbigt i motvinden, era krafter är nästan slut. Vad gör ni? 1-Pausar 2-Kämpar vidare;43;44
+43:H;Ni tar lite varm dryck och en näve russin. Orken kommer tillbaka. Ni fortsätter mot stranden;50
+44:H;Nu får ni kämpa, men era sista krafter tryter. Ni inser att ni måste ringa efter hjälp. Ni slår numret till räddningstjänsten.;38
+45:H;Ni slår följe med de andra skridskoåkarna. Ni åker tätt på led för att få skydd i motvinden. Det går undan. När ni närmar er stranden ser ni fraktfartyget som bryter upp en ränna bakom er. Tur att ni inte var kvar på ön nu.;50
+50:S;Äntligen tillbaka där ni startade. Det blev ett riktigt heldagsäventyr på isen. Nu ska det bli skönt att komma hem och sätta sig i bastun. Du har klarat det! SLUT

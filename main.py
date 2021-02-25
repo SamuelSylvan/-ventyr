@@ -2,7 +2,48 @@ import time
 import os
 import random
 äventyr = {}
-with open("äventyr.test.txt") as file:
+
+
+äventyr_testloop = False
+
+file = ""
+äventyret=""
+while äventyr_testloop == False:
+  print ("Vilket äventyr vill du spela?")
+  print ("1. Skogsäventyret")
+  print ("2. skriskoäventyret")
+  äventyret = input()
+  os.system ("clear") 
+  time.sleep(0.25)
+  äventyr_test = äventyret.isdigit() 
+  if äventyr_test == False:
+    os.system ("clear")
+    print ("Ogiltligt val")
+    input()
+    os.system ("clear") 
+    time.sleep(0.25)
+  else: 
+    äventyret = int (äventyret)
+    if äventyret >  2:
+      print ("Ogiltligt val")
+      input()
+      os.system ("clear")
+      time.sleep(0.25)
+    else: 
+      äventyr_testloop = True
+
+
+
+
+
+if äventyret == 1:
+  file = "testäventyret.txt"
+if äventyret == 2:
+  file = "skriskoäventyret.txt" 
+
+os.system("clear")
+time.sleep(0.25)
+with open (file) as file:
     for line in file: 
       line = (line.strip())
       s = line.split (":")
@@ -55,9 +96,9 @@ while not Slut:
     nummer = 1
     print (text[2])
     input()
-    for i in range (antal*5):
+    for i in range (antal*20):
       print (nummer,end="\r", flush = True)
-      time.sleep(0.25) 
+      time.sleep(0.1) 
       nummer = nummer + 1 
       if nummer > antal:
         nummer = 1
