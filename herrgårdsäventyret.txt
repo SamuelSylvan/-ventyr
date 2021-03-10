@@ -1,16 +1,16 @@
 0:Herrgårdsäventyret
-1:H;Du står framför en stor gul herrgård.Det börjar bli mört och en tjock dimma ligger över åkrarna. Plötsligt får du syn på någonting. Först förstår du inte vad det är. När du går närmare ser du att det är en nyckel. Du tar med den för. Vem vet när man kan behöva den.;2
+1:H;Du står framför en stor gul herrgård.Det börjar bli mörkt och en tjock dimma ligger över åkrarna. Plötsligt får du syn på någonting. Först förstår du inte vad det är. När du går närmare ser du att det är en nyckel. Du tar med den för, man vet ju aldrig när man kan behöva den.;2
 2:V;Du går upp för den stora entrén. Den är fin och har snirklig snickarglädje. Du känner på dörren.Den är låst! Vad gör du? 1. Testar om nyckeln passar. 2. Försöker gå i bakvägen.;3;4
 3:H;Nyckeln passar inte. Du är tvungen att försöka ta dig in bakvägen ändå.;6
 4:V;Du ser två ingångar. En verkar se ut om en köksingång och den andra som ett garageport. Vilken dörr tar du? 1.Köksingången 2. Garageporten;6;5
 5:V;Det stinker av olja i garaget och massa reservdelar är utspridda över hela arbetsbänken. Där borta i hörnet ser du en kniv. Vill du ta upp den 1. Ja 2. Nej;7;8
-6:V;Du kommer rätt in i köket. Massa lådor och grejer. Vad vill du göra nu? 1.gå vidare in till matsalen. 2.Leta och se om du hittar något av värde.;10;9
+6:V;Du kommer rätt in i köket. Massa lådor och grejer. Vad vill du göra nu? 1.Gå vidare in till matsalen. 2.Leta och se om du hittar något av värde.;10;9
 7:H;Du lägger kniven i fickan. Den har inget fodral men det tänker inte du på.;11
 8:V;Det var nog klokt det. Den såg verkligen inte fräsch ut. Hyllorna i garaget börjar skaka. vad gör du? 1. Står kvar 2.Springer ut.;12;13
 9:H;Du letar bland lådorna och hittar en kökskniv. Den ser inte perfekt ut men du tar med den ändå. den kan säkert vara bra till något.;7
 10:V;Det är ett robust matbord i ek. Det är fortfarande ingen som dukat av från senaste måltiden. Du ser något spännande tröskeln till något som ser ut som en hall. Det finns också en annan dörr i matsalen. Men den är stängd så man undrar ju vad som finns där bakom 1. Undersöka vad som finns bakom den stängda dörren. 2. Undersöka hallen.;14;15
-11:S;Du sticker dig på kniven. SLUT!
-12:T;6,Det flyger saker hej vilt omkring dig. 1-2 Du klarar dig. 3-4 du får en lindrig smäll. 5-6 du får en hård träff.;16;16;17;17;18;18
+11:S;Du skär dig på kniven. SLUT!
+12:T;6;Det flyger saker hej vilt omkring dig. 1-2 Du klarar dig. 3-4 du får en lindrig smäll. 5-6 du får en hård träff.Slumpen avgör.;16;16;17;17;18;18
 13:H;Du hör hur det knakar och brakar där inne i garaget. Tur att du inte är kvar där tänker du och går in i en bakdörr.;6
 14:V;Du lägger handen på dörrhandtaget. Din puls ökar. Man vet ju verkligen inte vad som finns där bakom. Det gnisslar till när handtaget trycks ner. Vill du verkligen gå in? 1. Ja 2.Nej;19;20
 15:H;Du ser att det konstiga på tröskeln är blod. Dumt nog gör det dig bara ännu mer nyfiken;21
@@ -23,11 +23,11 @@
 22:V;Du ser en trappa som leder ner i underjorden. Där nere är det kallt, fuktigt och trångt. Du känner lite klaustrofobi. Gången delar upp sig. Vilken väg vill du ta? 1. Rakt fram. 2. Till vänster.;26;27 
 23:H;Efter att du har vilar en stund beslutar du dig för att gå in i huset igen. Men absolut inte tillbaka till garaget. Du går in genom köksingången;6
 24:V;Du går ut och tar några djupa andetag. Skönt att bli av men den äckliga doften. Sedan går du längs en herrgårdens gula fasad. Plötsligt ser du en brant brandstege som är fäst i fasaden. Vad gör du? 1. Klättrar upp för stegen. 2. Går in genom en bakdörr som du fått syn på.;29;28
-25:Du har kommit upp till ett stort rum. Nen det är väldigt tomt. Det enda som finns är soffgrupp i mitten. Det häng också en sminkspegel på väggen. Väldigt konstigt tänker du. Förutom det så finns det en dörr som leder in till ett annat rum. Vad gör du? 1.Undersöker spegeln. 2. Undersöker sofforna. 3. Går in i det andra rummet.;30;31;32
+25:V;Du har kommit upp till ett stort rum. Nen det är väldigt tomt. Det enda som finns är soffgrupp i mitten. Det häng också en sminkspegel på väggen. Väldigt konstigt tänker du. Förutom det så finns det en dörr som leder in till ett annat rum. Vad gör du? 1.Undersöker spegeln. 2. Undersöker sofforna. 3. Går in i det andra rummet.;30;31;32
 26:H;Du ser något som glimmar lite längre fram. När du kommer närmare tar du upp föremålet. Först förstår du inte vad det är.Efter ett tag ser du att det är en diamant. Du tar upp den och lägger den i fickan. Sedan fortsätter du längre fram i gången.;33
 27:H;Du svänger till vänster. Där ser du en trappa. Du går upp för den. När du kommit så högt upp att du slår i taket märker du att det finns en lönnlucka. Vågar du verkligen öppna den tänker du. Efter en snabb fundering bestämmer du dig för att öppna.;19
 28:S;Du öppnar dörren. När du sedan stänger den blir det kolsvart där inne. Det går inte att se något så du famlar i mörkret. Sedan snubblar du på något faller som en fura. SLUT!
-29:T;6;Du börjar klättra uppför stegen. Kommer den verkligen att hålla? 1-3 Den brister. 4-6 Den håller;34;34;34;35;35;35
+29:T;6;Du börjar klättra uppför stegen. Kommer den verkligen att hålla? 1-3 Den brister. 4-6 Den håller. Slumpen avgör.;34;34;34;35;35;35
 30:S;Du känner på spegeln. det är trasig så du råkar skära dig på glaset. Det blir ett djupt jack med glassplitter i. SLUT!
 31:H; Du hittar inget intressant bland soforna. Så du beslutar dig för att undersöka spegeln istället;30
 32:H;Du öppnar dörren och får syn på en vit stor fin trappa. den verkar leda ner till undervåningen. När du kliver på det första trappsteget knakar trappan till. Du blir rädd och din puls stiger;36
